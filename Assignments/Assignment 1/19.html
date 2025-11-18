@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>responsive navbar</title>
+</head>
+
+<body>
+    <nav>
+        <a href="">Home</a>
+        <a href="">About</a>
+        <a href="">Services</a>
+        <a href="">Portfolio</a>
+        <a href="">Contact</a>
+    </nav>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        nav {
+            background-color: brown;
+            padding: 10px;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            font-size: 18px;
+        }
+
+        @media (max-width: 1000px) and (min-width: 768px) {
+            nav {
+                background-color: black;
+                display: block;
+            }
+
+            nav a {
+                display: block;
+                padding: 15px;
+                color: pink;
+            }
+        }
+        @media (max-width: 500px) {
+            nav {
+                background-color: rgb(36, 200, 203);
+                display: flex;
+                justify-content: space-around;
+            }
+
+            nav a {
+                display: inline-block;
+                color: black;
+            }
+        }
+    </style>
+
+</body>
+
+</html>

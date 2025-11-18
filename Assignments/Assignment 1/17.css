@@ -1,0 +1,13 @@
+.img-grid{
+    background-color: rgb(152, 135, 135);
+    width: 650px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px;
+        padding: 30px;
+    gap: 20px;
+}
+
+
+

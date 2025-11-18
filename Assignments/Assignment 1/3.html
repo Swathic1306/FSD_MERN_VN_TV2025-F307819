@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+
+<body>
+    <div>
+        <h1>REGISTRATION FORM</h1>
+        <label for="">User Name</label>
+        <input type="text" name="" id="" placeholder="Enter Your Name" style="width: 50%;padding:6px;"> <br>
+        <label for="">Email ID</label>
+        <input type="email" name="" id="" placeholder="Enter Your Mail ID" style="width: 50%;padding:6px;"> <br>
+        <label for="">Password</label>
+        <input type="password" placeholder="Enter Atleast 6 character" style="width: 50%;padding:6px;"><br>
+        <label for="">Confirm Password</label>
+        <input type="password" placeholder="Re-Enter Your Password" style="width: 50%;padding:6px;"><br>
+        <label for="">Date of Birth</label>
+        <input type="date" style="width: 25%;padding:6px;"><br>
+        <label for="">Gender</label>
+        <input type="radio">Male
+        <input type="radio">Female
+        <input type="radio">Not Prefered <br>
+        <label for="">Country</label>
+        <select name="" id="" style="width: 15%;padding:6px; border: transparent;">
+            <option value="">India</option>
+            <option value="">USA</option>
+            <option value="">UK</option>
+            <option value="">Japan</option>
+            <option value="">China</option>
+            <option value="">Singapore</option>
+            <option value="">Uganda</option>
+            <option value="">Tanzania</option>
+            <option value="">Taiwan</option>
+            <option value="">Yemen</option>
+            <option value="">Zambia</option>
+            <option value="">Vietnam</option>
+            <option value="">Qatar</option>
+        </select> <br>
+        <label for="">Terms & Conditions:</label> <br>
+        <input type="checkbox">The information provided in this form must be true and correct. <br>
+        <input type="checkbox">Your details will be used only for registration and communication purposes. <br>
+        <input type="checkbox">The organizers are not responsible for any personal belongings lost during the event.
+        <br>
+        <input type="checkbox">Any misconduct may lead to cancellation of your registration. <br>
+        <input type="checkbox">By submitting this form, you agree to all the above terms and conditions. <br>
+        <div id="button">
+            <button>Submit</button>
+            <button>Reset</button>
+        </div>
+    </div>
+    <style>
+        div {
+            background-color: rgb(255, 215, 167);
+            margin: auto;
+            padding: 30px;
+            margin-top: 75px;
+            width: 75%;
+            height: 150%;
+        }
+
+        label {
+            color: rgb(53, 69, 22);
+            font-family: hp simplified jpan;
+            font-weight: 1000;
+            padding: 5px;
+            display: block;
+        }
+
+        h1 {
+            font-family: bahnschrift;
+            text-align: center;
+            color: rgb(65, 43, 69);
+        }
+
+        input {
+            background-color: rgb(255, 255, 255);
+            border-color: transparent;
+            border-radius: 3px;
+            margin-top: 11px;
+            margin-bottom: 6px;
+        }
+
+        #button {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        button{
+            border: transparent;
+            padding: 7px;
+            width: 70px;
+            border-radius: 5px;
+            background-color: black;
+            color: beige;
+        }
+        button:hover{
+            border: transparent;
+            padding: 7px;
+            width: 70px;
+            border-radius: 5px;
+            background-color: rgb(98, 87, 87);
+            color: beige;
+        }
+    </style>
+</body>
+
+</html>
