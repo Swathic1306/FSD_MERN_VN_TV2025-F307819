@@ -1,0 +1,64 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Wireless Bluetooth Headphones",
+      "description": "High-quality wireless headphones with noise cancellation.",
+      "category": "electronics",
+      "price": 59.99,
+      "rating": 4.6,
+      "stock": 15,
+      "brand": "SoundMax",
+      "images": ["https://plus.unsplash.com/premium_photo-1678099940967-73fe30680949?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8aGVhZHBob25lc3xlbnwwfHwwfHx8MA%3D%3D"],
+      "meta": { "qrCode": "https://example.com/product/1" }
+    },
+    {
+      "id": 2,
+      "title": "Smart LED TV 42 inch",
+      "description": "Full HD Smart LED TV with built-in apps.",
+      "category": "electronics",
+      "price": 399.99,
+      "rating": 4.8,
+      "stock": 8,
+      "brand": "VisionTech",
+      "images": ["https://png.pngtree.com/png-vector/20240821/ourmid/pngtree-smart-android-tv-png-image_13218874.png"],
+      "meta": { "qrCode": "https://example.com/product/2" }
+    },
+    {
+      "id": 3,
+      "title": "Running Shoes",
+      "description": "Lightweight and comfortable running shoes for daily use.",
+      "category": "clothes",
+      "price": 49.99,
+      "rating": 4.5,
+      "stock": 25,
+      "brand": "RunFast",
+      "images": ["https://static.nike.com/a/images/t_web_pdp_936_v2/f_auto/65d684cb-c14a-43d4-80c2-c1c43b7892e6/NIKE+INTERACT+RUN.png"],
+      "meta": { "qrCode": "https://example.com/product/3" }
+    },
+    {
+      "id": 4,
+      "title": "Men's Casual Shirt",
+      "description": "Stylish cotton shirt perfect for casual outings.",
+      "category": "clothes",
+      "price": 29.99,
+      "rating": 4.2,
+      "stock": 30,
+      "brand": "FashionHub",
+      "images": ["https://cdn.shopify.com/s/files/1/0601/1476/4025/files/linen-shirt_2bad4843-8ebf-48bd-8440-353660501674.jpg?v=1720585304"],
+      "meta": { "qrCode": "https://example.com/product/4" }
+    },
+    {
+      "id": 5,
+      "title": "Coffee Maker",
+      "description": "Automatic coffee maker with 12-cup capacity.",
+      "category": "home-appliances",
+      "price": 79.99,
+      "rating": 4.7,
+      "stock": 12,
+      "brand": "BrewMaster",
+      "images": ["https://m.media-amazon.com/images/I/61x2BKrHBKL._AC_UF894,1000_QL80_.jpg"],
+      "meta": { "qrCode": "https://example.com/product/5" }
+    }
+  ]
+}
