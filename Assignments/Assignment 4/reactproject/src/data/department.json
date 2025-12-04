@@ -1,0 +1,56 @@
+[
+  {
+    "id": "cse",
+    "name": "Computer Science and Engineering",
+    "shortDescription": "Focuses on programming, algorithms, AI and software development.",
+    "fullDescription": "The CSE department provides in-depth knowledge in Computer Science, covering programming, data structures, algorithms, AI, machine learning, and software engineering. We aim to develop skilled professionals who can innovate in the technology sector.",
+    "courses": ["Data Structures", "Algorithms", "Operating Systems", "Database Management Systems", "Artificial Intelligence", "Machine Learning"],
+    "faculty": ["Dr. Ravi Kumar", "Prof. Swathi Chandra", "Dr. Karthik Raj"],
+    "labs": ["Computer Lab 1", "AI & ML Lab", "Software Development Lab"]
+  },
+  {
+    "id": "it",
+    "name": "Information Technology",
+    "shortDescription": "Covers software systems, networking, and information security.",
+    "fullDescription": "The IT department focuses on software systems, networking, web technologies, and information security. Students gain practical knowledge in developing secure and efficient IT solutions for real-world applications.",
+    "courses": ["Networking", "Web Development", "Cloud Computing", "Cyber Security", "Database Systems"],
+    "faculty": ["Dr. Priya Nair", "Prof. Arun V", "Dr. Swathi R"],
+    "labs": ["Network Lab", "Cyber Security Lab", "Cloud Lab"]
+  },
+  {
+    "id": "ece",
+    "name": "Electronics and Communication Engineering",
+    "shortDescription": "Deals with electronics, communication systems, and embedded systems.",
+    "fullDescription": "ECE department focuses on electronics, communication systems, VLSI design, and embedded systems. Students learn to design and maintain modern electronic and telecommunication systems.",
+    "courses": ["Digital Electronics", "VLSI Design", "Embedded Systems", "Communication Systems", "Signal Processing"],
+    "faculty": ["Dr. Meena K", "Prof. Rajesh P", "Dr. Kavitha S"],
+    "labs": ["Electronics Lab", "Embedded Systems Lab", "Communication Lab"]
+  },
+  {
+    "id": "mech",
+    "name": "Mechanical Engineering",
+    "shortDescription": "Covers design, manufacturing, and thermodynamics principles.",
+    "fullDescription": "The Mechanical Engineering department trains students in mechanical design, manufacturing, thermodynamics, and robotics. Emphasis is given on practical skills and industrial applications.",
+    "courses": ["Thermodynamics", "Fluid Mechanics", "Mechanical Design", "Robotics", "Manufacturing Processes"],
+    "faculty": ["Dr. Rajan S", "Prof. Anitha R", "Dr. Vinod K"],
+    "labs": ["CAD Lab", "Robotics Lab", "Thermal Lab"]
+  },
+  {
+    "id": "civil",
+    "name": "Civil Engineering",
+    "shortDescription": "Focuses on construction, structures, and environmental engineering.",
+    "fullDescription": "The Civil Engineering department provides expertise in construction techniques, structural analysis, geotechnical engineering, and environmental sustainability. Students gain hands-on experience in designing and managing infrastructure projects.",
+    "courses": ["Structural Engineering", "Geotechnical Engineering", "Construction Management", "Hydraulics", "Environmental Engineering"],
+    "faculty": ["Dr. Suresh K", "Prof. Nandhini M", "Dr. Rajesh V"],
+    "labs": ["Material Testing Lab", "Concrete Lab", "Survey Lab"]
+  },
+  {
+    "id": "mba",
+    "name": "Master of Business Administration",
+    "shortDescription": "Offers management, finance, and marketing knowledge.",
+    "fullDescription": "The MBA department trains students in business management, finance, marketing, human resources, and entrepreneurship. Students develop leadership and strategic decision-making skills.",
+    "courses": ["Finance", "Marketing", "Human Resource Management", "Operations Management", "Entrepreneurship"],
+    "faculty": ["Dr. Aruna P", "Prof. Karthik S", "Dr. Swathi C"],
+    "labs": ["Computer Lab", "Simulation Lab", "Case Study Lab"]
+  }
+]
